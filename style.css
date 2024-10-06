@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header{
+    color: rgb(2, 2, 2);
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(125, 234, 248);
+}
+nav a{
+    display: inline;
+    margin: 0 15px;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+    font-weight: 300;
+    padding: 70px 30px 20px;
+
+}
+nav a:hover, nav a.active{
+    color: #9b4c4c;
+    border-bottom: 2px solid #9b4c4c;
+}
+section{
+    padding: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+form label{
+    margin-top: 10px;
+}
+form input{
+    padding: 8px;
+    margin-top: 5px;
+}
+form textarea{
+    height: 2cm;
+    width: 10.5cm;
+}
+form button{
+    margin-top: 10px;
+    padding: 10px;
+    background: #9b4c4c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.logo{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.anime{
+    transition: 0.5s ease;
+    cursor: pointer;
+    background-color: aqua;
+}
+.anime:hover{
+    transform: scale(0.9);
+}
+footer{
+    background-color: #111;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.social a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #9b4c4c;
+    color: white;
+    display: inline;
+}
+.social a:hover{
+    transition: 0.5s;
+    color: #a58e8e;
+}
+.copy_right{
+    background-color: grey;
+    text-align: center;
+}
